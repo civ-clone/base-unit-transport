@@ -1,8 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Transport = void 0;
-const Fortifiable_1 = require("@civ-clone/base-unit-type-fortifiable/Fortifiable");
-class Transport extends Fortifiable_1.Fortifiable {
+const NavalTransport_1 = require("@civ-clone/base-unit-type-naval-transport/NavalTransport");
+class Transport extends NavalTransport_1.default {
+    capacity() {
+        return 8;
+    }
 }
 exports.Transport = Transport;
 exports.default = Transport;
