@@ -1,4 +1,3 @@
 # base-unit-transport
 
-This is a template repo.
-
+Contains the `Transport` `Unit` class.
